@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* generic settings */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    background: #282626;
+}
+
+/* containers, fluid containers, cards */
+.container-fluid, .card {
+    width: 1350px;
+}
+
+.card {
+    margin-bottom: 15px;
+    background: #282626;
+}
+
+.card-header, .card-footer {
+    background: #f80303;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.carousel, .video {
+    width: 1280px;
+}
+
+.blockquote, .blockquote-footer, .modal-footer {
+    color: darkgray;
+    font-size: medium;
+    text-align: justify;
+}
+
+/* navigation, links */
+.navbar-nav a:hover, .card-text a:hover {
+    color: #991919;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    color: whitesmoke;
+}
+
+/* table */
+th {
+    color: #f80303;
+}
+
+th, td {
+    padding: 5px;
+}
+
